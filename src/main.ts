@@ -27,6 +27,14 @@ import App from './App.vue';
 import router from './router';
 import { initDemoMode } from './demo/setup';
 
+const hasQuery = window.location.search.length > 0;
+
+if (!hasQuery) {
+  window.location.replace(
+    `${window.location.pathname}?selected=region-中部&expand=region-北部,region-中部&y=0`
+  );
+}
+
 initDemoMode();
 
 const pinia = createPinia();
