@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+	<g id="icon" transform="matrix(1.001 0 0 1.001 -.71657 -6.3417)" fill="#58935b" image-rendering="auto" stroke-width="11.304">
+		<path d="m513.57 48.484h-512.86v128.96h512.86z"/>
+		<path d="m402.4 348.3h109.81v-127.38h-237.72v254.77h127.91z"/>
+		<path d="m238.16 220.91h-237.45v127.38h109.67v127.38h127.77z"/>
+	</g>
+</svg>

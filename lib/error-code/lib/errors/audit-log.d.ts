@@ -1,0 +1,28 @@
+export declare enum ListAuditLogsGetError {
+  QuerystringPageType = 1,
+  QuerystringPageMinimum = 2,
+  QuerystringItemsPerPageType = 3,
+  QuerystringItemsPerPageMinimum = 4,
+  QuerystringOrderByStaffIDType = 5,
+  QuerystringOrderByStaffNameType = 6,
+  QuerystringOrderByStaffTypeType = 7,
+  QuerystringOrderByAuditEventIDType = 8,
+  QuerystringOrderByAuditEventKeyType = 9,
+  QuerystringOrderByAuditEventNameType = 10,
+  QuerystringOrderByAuditEventIsReadType = 11,
+  QuerystringOrderByIDType = 12,
+  QuerystringOrderByCreateAtType = 13,
+  QuerystringOrderByIpv4Type = 14,
+  QuerystringCreateAtStartType = 15,
+  QuerystringCreateAtStartFormat = 16,
+  QuerystringCreateAtEndType = 17,
+  QuerystringCreateAtEndFormat = 18,
+  QuerystringStaffIDsType = 19,
+  QuerystringStaffIDsMinimum = 20,
+  QuerystringAuditEventIDsType = 21,
+  QuerystringAuditEventIDsMinimum = 22,
+  QuerystringIsReadType = 23,
+  QuerystringIpv4Type = 24,
+  QuerystringIpv4Format = 25
+}
+export declare const listAuditLogsGetErrorDescriptions: string;
